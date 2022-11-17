@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('drop\ water.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+
+.row2 h1 {
+    position: absolute;
+    left: 100vw;
+    color: rgb(20, 19, 19);
+    top: 30px;
+    left: 40vw;
+    height: 60px;
+    position: relative;
+    left: 40vw;
+    bottom: -15px;
+    right: 39px;
+    
+}
+
+
+
+main div.column input {
+    display: block;
+    position: relative;
+    margin: 24px 26px;
+    left: 40vw;
+    border-radius: 15px;
+    width: 250px;
+    height: 40px;
+    background:rgb(255, 255, 255);
+    
+}
+
+input[type="text"] {
+    text-align: center;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main div.last input {
+    width: 256px;
+    background: rgb(1, 0, 1);
+    background:rgb(18, 169, 219);
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main div.last input:hover {
+    background:rgb(18, 169, 219);
+}
+
+.bor {
+    text-align: center;
+    margin-left: 39vw;
+    color: rgb(7, 7, 7);
+    font-size: 21px;
+    border: 2px solid rgb(251, 253, 255);
+    width: 358px;
+    font-weight: 600;
+    padding-left: 4px;
+    background-color:rgb(18, 169, 219);
+    
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  ::placeholder {
+    color: rgb(5, 5, 5);
+    opacity: 1; 
+  }
+  
+
+ 
